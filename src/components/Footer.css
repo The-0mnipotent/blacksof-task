@@ -5,7 +5,7 @@
   background: linear-gradient(0deg, #fff, #2684ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} 
 .footer-left {
   display: flex;
   flex-direction: column;
