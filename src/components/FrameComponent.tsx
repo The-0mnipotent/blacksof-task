@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+ import { FunctionComponent } from "react";
 import Component from "./Component";
 import "./FrameComponent.css";
 
