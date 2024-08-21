@@ -6,7 +6,7 @@ import FrameComponent from "../components/FrameComponent";
 import Benefits from "../components/Benefits";
 import Footer from "../components/Footer";
 import "./Website.css";
-
+ 
 const Website: FunctionComponent = () => {
   return (
     <div className="website">
