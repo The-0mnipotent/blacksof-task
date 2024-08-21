@@ -4,7 +4,7 @@ import "./Benefits.css";
 export type BenefitsType = {
   className?: string;
 };
-
+ 
 const Benefits: FunctionComponent<BenefitsType> = ({ className = "" }) => {
   return (
     <div className={`benefits ${className}`}>
