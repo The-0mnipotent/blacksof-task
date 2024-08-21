@@ -4,7 +4,7 @@ import "./Footer.css";
 export type FooterType = {
   className?: string;
 };
-
+ 
 const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
   return (
     <footer className={`footer ${className}`}>
