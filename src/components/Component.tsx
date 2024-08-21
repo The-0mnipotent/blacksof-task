@@ -12,7 +12,7 @@ export type ComponentType = {
   propMinWidth?: CSSProperties["minWidth"];
   propColor?: CSSProperties["color"];
 };
-
+ 
 const Component: FunctionComponent<ComponentType> = ({
   className = "",
   propBorder,
