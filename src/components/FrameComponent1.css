@@ -5,7 +5,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
   display: none;
   max-width: 100%;
-}
+} 
 .ecosystem {
   flex: 1;
   position: relative;
