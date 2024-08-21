@@ -4,7 +4,7 @@ import "./FrameComponent1.css";
 export type FrameComponent1Type = {
   className?: string;
 };
-
+ 
 const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
   className = "",
 }) => {
