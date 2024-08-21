@@ -4,7 +4,7 @@ import "./NavBar.css";
 export type NavBarType = {
   className?: string;
 };
-
+ 
 const NavBar: FunctionComponent<NavBarType> = ({ className = "" }) => {
   return (
     <header className={`nav-bar ${className}`}>
