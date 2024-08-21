@@ -2,7 +2,7 @@
   position: relative;
   letter-spacing: 0.01em;
   line-height: 150%;
-}
+} 
 .component-2 {
   border-radius: var(--br-12xs);
   border: 1.5px solid var(--color-gray-200);
