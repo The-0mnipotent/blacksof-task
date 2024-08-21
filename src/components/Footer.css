@@ -1,0 +1,204 @@
+.smart-lights1 {
+  position: relative;
+  letter-spacing: 1.63px;
+  text-transform: capitalize;
+  background: linear-gradient(0deg, #fff, #2684ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-1) 0 0;
+}
+.product {
+  display: inline-block;
+  min-width: 72px;
+}
+.follow-us,
+.product,
+.software-services1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  z-index: 1;
+}
+.follow-us {
+  display: inline-block;
+  min-width: 89px;
+}
+.footer-links {
+  justify-content: center;
+  gap: var(--gap-124xl-5);
+  text-align: justify;
+  font-size: var(--font-size-xl);
+}
+.footer-content,
+.footer-left-parent,
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-left-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer-content {
+  width: 1395px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-39xl);
+  box-sizing: border-box;
+}
+.planet-earth-from-space-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 737px;
+  width: 2324.6px;
+  height: 1216.6px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+}
+.statuspage-icon1 {
+  position: absolute;
+  top: 273px;
+  left: 0;
+  width: 49px;
+  height: 40.3px;
+  overflow: hidden;
+}
+.divider-icon {
+  position: absolute;
+  top: 578px;
+  left: 0;
+  width: 958.2px;
+  height: 2px;
+  z-index: 1;
+}
+.footer-right {
+  width: 1682px;
+  height: 780px;
+  position: absolute;
+  margin: 0 !important;
+  top: -123px;
+  right: 0;
+}
+.privacy-policy {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 127px;
+  flex-shrink: 0;
+}
+.legal {
+  display: inline-block;
+  min-width: 7px;
+}
+.cookie-policy,
+.legal,
+.terms-conditions {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  flex-shrink: 0;
+}
+.cookie-policy {
+  display: inline-block;
+  min-width: 124px;
+}
+.footer,
+.policies {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.policies {
+  width: 568px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: justify;
+  font-size: var(--font-size-xl);
+}
+.footer {
+  align-self: stretch;
+  background: linear-gradient(166.74deg, #00050a, #002547),
+    linear-gradient(180deg, rgba(255, 255, 255, 0), #eff7ff);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) var(--padding-219xl) var(--padding-124xl-6);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-278xl-3);
+  text-align: center;
+  font-size: var(--font-size-7xl-1);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .footer-left-parent {
+    flex-wrap: wrap;
+  }
+  .footer,
+  .footer-content {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-130xl);
+    padding-left: var(--padding-100xl);
+    padding-right: var(--padding-100xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-links {
+    flex-wrap: wrap;
+    gap: var(--gap-53xl);
+  }
+  .legal {
+    width: 100%;
+    height: 7px;
+  }
+  .policies {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-55xl);
+    padding: var(--padding-78xl) var(--padding-40xl) var(--padding-74xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .smart-lights1 {
+    font-size: var(--font-size-2xl);
+  }
+  .follow-us,
+  .product,
+  .software-services1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .footer-links {
+    gap: var(--gap-17xl);
+  }
+  .cookie-policy,
+  .legal,
+  .privacy-policy,
+  .terms-conditions {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .footer {
+    gap: var(--gap-18xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

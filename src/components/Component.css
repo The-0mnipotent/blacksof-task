@@ -1,0 +1,19 @@
+.centralized-control {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.component-2 {
+  border-radius: var(--br-12xs);
+  border: 1.5px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-sequel-sans);
+}
