@@ -4,7 +4,7 @@ import "./Content.css";
 export type ContentType = {
   className?: string;
 };
-
+ 
 const Content: FunctionComponent<ContentType> = ({ className = "" }) => {
   return (
     <div className={`content ${className}`}>
