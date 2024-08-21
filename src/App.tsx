@@ -6,7 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Website from "./pages/Website";
-
+ 
 function App() {
   const action = useNavigationType();
   const location = useLocation();
